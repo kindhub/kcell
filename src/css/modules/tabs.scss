@@ -1,0 +1,12 @@
+.tab{
+	display: none;
+	&--active{
+		display: block;
+	}
+	&-nav__item{
+		border-radius: 16px;
+		&--active{
+			background: rgba(35, 31, 32, 0.08);
+		}
+	}
+}

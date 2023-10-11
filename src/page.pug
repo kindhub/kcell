@@ -1,0 +1,643 @@
+extends ./pug/layout
+
+block content
+	<!-- START ANIMATION -->
+	//- .section.s-animation 
+	//- 	.container
+	//- 		.grid
+	//- 			.s-animation__1
+	//- 				.img-wrapper.img-wrapper--one 
+	//- 					img.img(src="images/animation/1.jpg")
+	//- 				.img-wrapper.img-wrapper--eight
+	//- 					img.img(src="images/animation/8.jpg")
+	//- 			.s-animation__2
+	//- 				.img-wrapper.img-wrapper--two
+	//- 					img.img(src="images/animation/2.jpg")
+	//- 				.img-wrapper.img-wrapper--five
+	//- 					img.img(src="images/animation/5.jpg")
+	//- 				.img-wrapper.img-wrapper--nine
+	//- 					img.img(src="images/animation/9.jpg")
+	//- 			.s-animation__3
+	//- 				.img-wrapper.img-wrapper--three
+	//- 					img.img(src="images/animation/3.jpg")
+	//- 				.img-wrapper.img-wrapper--six
+	//- 					img.img(src="images/animation/6.jpg")
+	//- 				.img-wrapper.img-wrapper--ten
+	//- 					img.img(src="images/animation/10.jpg")
+	//- 			.s-animation__4
+	//- 				.img-wrapper.img-wrapper--four
+	//- 					img.img(src="images/animation/4.jpg")
+	//- 				.img-wrapper.img-wrapper--seven
+	//- 					img.img(src="images/animation/7.jpg")
+				//- .img-wrapper.img-wrapper--one 
+				//- 	img.img(src="images/animation/1.jpg")
+				//- .img-wrapper.img-wrapper--two
+				//- 	img.img(src="images/animation/2.jpg")
+				//- .img-wrapper.img-wrapper--three
+				//- 	img.img(src="images/animation/3.jpg")
+				//- .img-wrapper.img-wrapper--four
+				//- 	img.img(src="images/animation/4.jpg")
+				//- .img-wrapper.img-wrapper--five
+				//- 	img.img(src="images/animation/5.jpg")
+				//- .img-wrapper.img-wrapper--six
+				//- 	img.img(src="images/animation/6.jpg")
+				//- .img-wrapper.img-wrapper--seven
+				//- 	img.img(src="images/animation/7.jpg")
+				//- .img-wrapper.img-wrapper--eight
+				//- 	img.img(src="images/animation/8.jpg")
+				//- .img-wrapper.img-wrapper--nine
+				//- 	img.img(src="images/animation/9.jpg")
+				//- .img-wrapper.img-wrapper--ten
+				//- 	img.img(src="images/animation/10.jpg")
+	<!-- END ANIMATION -->
+
+	<!-- START CONTENT COMPANY -->
+	.content.content--opacity-1.content--active.content__company
+		<!-- START HEADER -->
+		.header
+			.header__inner
+				.header__left
+					.header__logo-wrapper 
+						img.header__logo(src="images/logo.svg" alt="Логотип")
+					.header__nav.nav
+						a.nav-item.content-tab.content-tab--active(href="#company") Компания
+						a.nav-item.content-tab(href="#values") Ценности
+						a.nav-item.content-tab(href="#career") Карьера в Kacll
+						a.nav-item.content-tab(href="#gallery") Галерея
+				.header__right
+					.header__lg
+						<svg class="header__lg-img" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L5 5L9 1" stroke="#231F20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						a.header__lg-btn.content-tab.content-tab--active(href="#company") Ru
+						a.header__lg-btn.content-tab(href="#company-kz") Kz
+					+nav-btn
+		<!-- END HEADER -->
+
+		<!-- START FIRST-SCREEN -->
+		.section.s-first-screen
+			.container 
+				.s-first-screen__img-wrapper
+					img.s-first-screen__img(src="images/fs.jpg")
+				.s-first-screen__content
+					.s-first-screen__title Присоединяйся к команде мечты вместе с Кселл!
+					.s-first-screen__text 
+						p Кселл - престижная, продвинутая, технологичная компания, работать в которой, мечтает каждый казахстанец!
+					.s-first-screen__btn.btn.vacancy-btn Вакансии
+		<!-- END FIRST-SCREEN -->
+
+		<!-- START ABOUT -->
+		.section.s-about
+			img.elem-img.elem-img--2(src="images/elem.svg")
+			.container
+				.title <span></span>О нас
+				.s-about__inner 
+					.s-about__img-wrapper 
+						img.s-about__img(src="images/about.svg")
+					.s-about__text
+						p Наша Компания – это команда, готовая меняться, рисковать и пробовать новое!
+						p Наша Компания – это профессиональная среда, где царит атмосфера взаимного уважения, где учитывается мнение коллег и всегда стремятся договориться!
+						p Мы поддерживаем друг друга не потому, что мы в одной команде. Мы поддерживаем друг друга, и поэтому мы команда!
+		<!-- END ABOUT -->
+	<!-- END CONTENT COMPANY -->
+
+	<!-- START CONTENT VALUES -->
+	.content.content__values
+		<!-- START HEADER -->
+		.header
+			.header__inner
+				.header__left
+					.header__logo-wrapper 
+						img.header__logo(src="images/logo.svg" alt="Логотип")
+					.header__nav.nav
+						a.nav-item.content-tab(href="#company") Компания
+						a.nav-item.content-tab(href="#values") Ценности
+						a.nav-item.content-tab(href="#career") Карьера в Kacll
+						a.nav-item.content-tab(href="#gallery") Галерея
+				.header__right
+					.header__lg
+						<svg class="header__lg-img" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L5 5L9 1" stroke="#231F20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						a.header__lg-btn.content-tab.content-tab--active(href="#values") Ru
+						a.header__lg-btn.content-tab(href="#values-kz") Kz
+				+nav-btn
+		<!-- END HEADER -->
+		<!-- START FIRST-SCREEN -->
+		.section.s-first-screen
+			.container 
+				.s-first-screen__img-wrapper
+					img.s-first-screen__img(src="images/fs.jpg")
+				.s-first-screen__content
+					.s-first-screen__title Присоединяйся к команде мечты вместе с Кселл!
+					.s-first-screen__text 
+						p Кселл - престижная, продвинутая, технологичная компания, работать в которой, мечтает каждый казахстанец!
+					.s-first-screen__btn.btn.vacancy-btn Вакансии
+		<!-- END FIRST-SCREEN -->
+
+		<!-- START VALUES -->
+		.section.s-values
+			img.elem-img.elem-img--1(src="images/elem-2.svg")
+			.container
+				.title <span></span>Наши ценности
+				.s-values__img-wrapper
+					img.s-values__img(src="images/values.svg")
+				.s-values__inner
+					.s-values__tabs
+						.tab-nav__item(data-tab-name="tmpl-hh__tab-1") 
+							.tab-nav__item-img-wrapper
+								img.tab-nav__item-img(src="images/values/1.png")
+							.tab-nav__item-title Забота
+						.tab-nav__item(data-tab-name="tmpl-hh__tab-2") 
+							.tab-nav__item-img-wrapper
+								img.tab-nav__item-img(src="images/values/2.png")
+							.tab-nav__item-title Открытость
+						.tab-nav__item(data-tab-name="tmpl-hh__tab-3") 
+							.tab-nav__item-img-wrapper
+								img.tab-nav__item-img(src="images/values/3.png")
+							.tab-nav__item-title Смелость
+						.tab-nav__item(data-tab-name="tmpl-hh__tab-4") 
+							.tab-nav__item-img-wrapper
+								img.tab-nav__item-img(src="images/values/4.png")
+							.tab-nav__item-title Самоотдача
+					.s-values__content
+						.tab.tab-1 
+							.tab__text 
+								p Мы искренне интересуемся, разделяем радость, благодарим и поддерживаем. Мы заботимся о наших клиентах, друг о друге и нашей стране. И это проявляется во внимательном обслуживании всех наших клиентов, с искренней заботой о каждом.
+						.tab.tab-2
+							.tab__text 
+								p Действуем так, как говорим, а говорим так, как думаем. Всегда и везде. 
+						.tab.tab-3 
+							.tab__text 
+								p Мы смело беремся за дело, меняемся и меняем все вокруг! Умеем признавать ошибки. И эта смелость помогает внедрять новые проекты и новые подходы в работе разных отделов.
+						.tab.tab-4 
+							.tab__text 
+								p Мы вдохновляем друг друга, мы активно создаем, а не наблюдаем! Мы вкладываем время и энергию!. Мы осознанно бескорыстно отдаем больше, чем от нас ожидают 
+		<!-- END VALUES -->
+	<!-- END CONTENT VALUES -->
+
+	<!-- START CONTENT CAREER -->
+	.content.content__career
+		<!-- START HEADER -->
+		.header
+			.header__inner
+				.header__left
+					.header__logo-wrapper 
+						img.header__logo(src="images/logo.svg" alt="Логотип")
+					.header__nav.nav
+						a.nav-item.content-tab(href="#company") Компания
+						a.nav-item.content-tab(href="#values") Ценности
+						a.nav-item.content-tab(href="#career") Карьера в Kacll
+						a.nav-item.content-tab(href="#gallery") Галерея
+				.header__right
+					.header__lg
+						<svg class="header__lg-img" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L5 5L9 1" stroke="#231F20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						a.header__lg-btn.content-tab.content-tab--active(href="#career") Ru
+						a.header__lg-btn.content-tab(href="#career-kz") Kz
+					+nav-btn
+		<!-- END HEADER -->
+
+		<!-- START FIRST-SCREEN -->
+		.section.s-first-screen
+			.container 
+				.s-first-screen__img-wrapper
+					img.s-first-screen__img(src="images/fs.jpg")
+				.s-first-screen__content
+					.s-first-screen__title Присоединяйся к команде мечты вместе с Кселл!
+					.s-first-screen__text 
+						p Кселл - престижная, продвинутая, технологичная компания, работать в которой, мечтает каждый казахстанец!
+					.s-first-screen__btn.btn.vacancy-btn Вакансии
+		<!-- END FIRST-SCREEN -->
+
+		<!-- START CAREER -->
+		.section.s-career 
+			.container
+				img.elem-img.elem-img--4(src="images/career.svg")
+				img.elem-img.elem-img--5(src="images/elem-2.svg")
+				.title <span></span>Карьера в Kcell
+				.s-career__inner 
+					.s-career__content 
+						.s-career__title Карьера в Кселл <br>У нас есть возможности для каждого!
+						.s-career__text 
+							p Кселл это крупнейшая цифровая экосистема в Казахстане, которая чтит традиции и идет в ногу со временем.
+							p Одной из главных целей нашей компании является создание комфортной и дружелюбной атм осферы для сотрудников.
+							p Если Вы смелые, открытые, заботливые и креативные, присоединяйтесь!
+					.s-career__img-wrapper
+						img.s-career__img(src="images/career.svg")
+				.s-career__inner.s-career__inner--2 
+					.s-career__content 
+						.s-career__title Наши награды:
+						.s-career__text 
+							p Кселл занял <span>1 место</span> в категории Масштабный бизнес, Ташкентcкий II Международный управленческий форум
+						.s-career__bottom
+							.s-career__bottom-left
+								.s-career__bottom-title Победитель
+								.s-career__bottom-text 
+									p Премии HR-Бренд
+							.s-career__bottom-img-wrapper
+								img.s-career__bottom-img(src="images/career-icon.svg")
+		<!-- END CAREER -->
+
+		<!-- START WORK -->
+		.section.s-work.section--medium-pt
+			.container 
+				.title <span></span> Работая у нас , ты получаешь
+				.s-work__cards.flex 
+					+icon-card("money", "Достойную заработную плату <br>Годовой бонус и другие мотивационные программы")
+					+icon-card("star", "Крутые корпоративные мероприятия")
+					+icon-card("home", "Гибридный формат работы")
+					+icon-card("portfel", "Внутренние программы обучения и наставничества")
+					+icon-card("heart", "Медицинскую страховку")
+					+icon-card("settings", "Доступ к онлайн-магазину Samsung для покупки техники со специальной скидкой")
+					+icon-card("gift", "Подарки от компании на день рождения")
+					.s-work__text 
+						p И многое другое!
+		<!-- END WORK -->
+	<!-- END CONTENT CAREER -->
+
+	<!-- START CONTENT GALLERY -->
+	.content.content__gallery
+		<!-- START HEADER -->
+		.header
+			.header__inner
+				.header__left
+					.header__logo-wrapper 
+						img.header__logo(src="images/logo.svg" alt="Логотип")
+					.header__nav.nav
+						a.nav-item.content-tab(href="#company") Компания
+						a.nav-item.content-tab(href="#values") Ценности
+						a.nav-item.content-tab(href="#career") Карьера в Kacll
+						a.nav-item.content-tab(href="#gallery") Галерея
+				.header__right
+					.header__lg
+						<svg class="header__lg-img" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L5 5L9 1" stroke="#231F20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						a.header__lg-btn.content-tab.content-tab--active(href="#gallery") Ru
+						a.header__lg-btn.content-tab(href="#gallery-kz") Kz
+					+nav-btn
+		<!-- END HEADER -->
+
+		<!-- START FIRST-SCREEN -->
+		.section.s-first-screen
+			.container 
+				.s-first-screen__img-wrapper
+					img.s-first-screen__img(src="images/fs.jpg")
+				.s-first-screen__content
+					.s-first-screen__title Присоединяйся к команде мечты вместе с Кселл!
+					.s-first-screen__text 
+						p Кселл - престижная, продвинутая, технологичная компания, работать в которой, мечтает каждый казахстанец!
+					.s-first-screen__btn.btn.vacancy-btn Вакансии
+		<!-- END FIRST-SCREEN -->
+
+		<!-- START SECTION GALLERY -->
+		.section.s-gallery
+			img.elem-img.elem-img--3(src="images/elem-3.svg")
+			.container
+				.title <span></span>Наши будни
+				.swiper-container.gallery-slider
+					.swiper-wrapper
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/1.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/2.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/3.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/4.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/5.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/6.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/7.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/8.jpg")
+					.gallery-slider__pagination
+					.slider-arrows.gallery-slider-arrows
+						.slider-arrow.slider-arrow--prev.gallery-slider-arrow-prev
+							<svg class="slider-arrow__icon" fill="none" version="1.1" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
+								<path d="m9 1-8 8 8 8" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							</svg>
+						.slider-arrow.slider-arrow--next.gallery-slider-arrow-next
+							<svg class="slider-arrow__icon" fill="none" version="1.1" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
+								<path d="m1 17 8-8-8-8" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							</svg>
+		<!-- END SECTION GALLERY-->
+	<!-- END CONTENT GALLERY -->
+
+	<!-- START CONTENT COMPANY-KZ -->
+	.content.content__company-kz
+		<!-- START HEADER -->
+		.header
+			.header__inner
+				.header__left
+					.header__logo-wrapper 
+						img.header__logo(src="images/logo.svg" alt="Логотип")
+					.header__nav.nav
+						a.nav-item.content-tab.content-tab--active(href="#company-kz") Компания
+						a.nav-item.content-tab(href="#values") Ценности
+						a.nav-item.content-tab(href="#career") Карьера в Kacll
+						a.nav-item.content-tab(href="#gallery") Галерея
+				.header__right
+					.header__lg
+						<svg class="header__lg-img" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L5 5L9 1" stroke="#231F20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						a.header__lg-btn.content-tab.content-tab--active(href="#company-kz") Kz
+						a.header__lg-btn.content-tab(href="#company") Ru
+					+nav-btn
+		<!-- END HEADER -->
+
+		<!-- START FIRST-SCREEN -->
+		.section.s-first-screen
+			.container 
+				.s-first-screen__img-wrapper
+					img.s-first-screen__img(src="images/fs.jpg")
+				.s-first-screen__content
+					.s-first-screen__title Присоединяйся к команде мечты вместе с Кселл!
+					.s-first-screen__text 
+						p Кселл - престижная, продвинутая, технологичная компания, работать в которой, мечтает каждый казахстанец!
+					.s-first-screen__btn.btn.vacancy-btn Вакансии
+		<!-- END FIRST-SCREEN -->
+
+		<!-- START ABOUT -->
+		.section.s-about
+			img.elem-img.elem-img--2(src="images/elem.svg")
+			.container
+				.title <span></span>О нас
+				.s-about__inner 
+					.s-about__img-wrapper 
+						img.s-about__img(src="images/about.svg")
+					.s-about__text
+						p Наша Компания – это команда, готовая меняться, рисковать и пробовать новое!
+						p Наша Компания – это профессиональная среда, где царит атмосфера взаимного уважения, где учитывается мнение коллег и всегда стремятся договориться!
+						p Мы поддерживаем друг друга не потому, что мы в одной команде. Мы поддерживаем друг друга, и поэтому мы команда!
+		<!-- END ABOUT -->
+	<!-- END CONTENT COMPANY-KZ -->
+
+	<!-- START CONTENT VALUES-KZ -->
+	.content.content__values-kz
+		<!-- START HEADER -->
+		.header
+			.header__inner
+				.header__left
+					.header__logo-wrapper 
+						img.header__logo(src="images/logo.svg" alt="Логотип")
+					.header__nav.nav
+						a.nav-item.content-tab(href="#company-kz") Компания
+						a.nav-item.content-tab(href="#values-kz") Ценности
+						a.nav-item.content-tab(href="#career-kz") Карьера в Kacll
+						a.nav-item.content-tab(href="#gallery-kz") Галерея
+				.header__right
+					.header__lg
+						<svg class="header__lg-img" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L5 5L9 1" stroke="#231F20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						a.header__lg-btn.content-tab(href="#values-kz") Kz
+						a.header__lg-btn.content-tab.content-tab--active(href="#values") Ru
+					+nav-btn
+		<!-- END HEADER -->
+		<!-- START FIRST-SCREEN -->
+		.section.s-first-screen
+			.container 
+				.s-first-screen__img-wrapper
+					img.s-first-screen__img(src="images/fs.jpg")
+				.s-first-screen__content
+					.s-first-screen__title Присоединяйся к команде мечты вместе с Кселл!
+					.s-first-screen__text 
+						p Кселл - престижная, продвинутая, технологичная компания, работать в которой, мечтает каждый казахстанец!
+					.s-first-screen__btn.btn.vacancy-btn Вакансии
+		<!-- END FIRST-SCREEN -->
+
+		<!-- START VALUES -->
+		.section.s-values
+			img.elem-img.elem-img--1(src="images/elem-2.svg")
+			.container
+				.title <span></span>Наши ценности
+				.s-values__img-wrapper
+					img.s-values__img(src="images/values.svg")
+				.s-values__inner
+					.s-values__tabs
+						.tab-nav__item(data-tab-name="tmpl-hh__tab-1") 
+							.tab-nav__item-img-wrapper
+								img.tab-nav__item-img(src="images/values/1.png")
+							.tab-nav__item-title Забота
+						.tab-nav__item(data-tab-name="tmpl-hh__tab-2") 
+							.tab-nav__item-img-wrapper
+								img.tab-nav__item-img(src="images/values/2.png")
+							.tab-nav__item-title Открытость
+						.tab-nav__item(data-tab-name="tmpl-hh__tab-3") 
+							.tab-nav__item-img-wrapper
+								img.tab-nav__item-img(src="images/values/3.png")
+							.tab-nav__item-title Смелость
+						.tab-nav__item(data-tab-name="tmpl-hh__tab-4") 
+							.tab-nav__item-img-wrapper
+								img.tab-nav__item-img(src="images/values/4.png")
+							.tab-nav__item-title Самоотдача
+					.s-values__content
+						.tab.tab-1 
+							.tab__text 
+								p Мы искренне интересуемся, разделяем радость, благодарим и поддерживаем. Мы заботимся о наших клиентах, друг о друге и нашей стране. И это проявляется во внимательном обслуживании всех наших клиентов, с искренней заботой о каждом.
+						.tab.tab-2
+							.tab__text 
+								p Действуем так, как говорим, а говорим так, как думаем. Всегда и везде. 
+						.tab.tab-3 
+							.tab__text 
+								p Мы смело беремся за дело, меняемся и меняем все вокруг! Умеем признавать ошибки. И эта смелость помогает внедрять новые проекты и новые подходы в работе разных отделов.
+						.tab.tab-4 
+							.tab__text 
+								p Мы вдохновляем друг друга, мы активно создаем, а не наблюдаем! Мы вкладываем время и энергию!. Мы осознанно бескорыстно отдаем больше, чем от нас ожидают 
+		<!-- END VALUES -->
+	<!-- END CONTENT VALUES-KZ -->
+
+	<!-- START CONTENT CAREER-KZ -->
+	.content.content__career-kz
+		<!-- START HEADER -->
+		.header
+			.header__inner
+				.header__left
+					.header__logo-wrapper 
+						img.header__logo(src="images/logo.svg" alt="Логотип")
+					.header__nav.nav
+						a.nav-item.content-tab(href="#company-kz") Компания
+						a.nav-item.content-tab(href="#values-kz") Ценности
+						a.nav-item.content-tab(href="#career-kz") Карьера в Kacll
+						a.nav-item.content-tab(href="#gallery-kz") Галерея
+				.header__right
+					.header__lg
+						<svg class="header__lg-img" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L5 5L9 1" stroke="#231F20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						a.header__lg-btn.content-tab(href="#career-kz") Kz
+						a.header__lg-btn.content-tab.content-tab--active(href="#career") Ru
+					+nav-btn
+		<!-- END HEADER -->
+
+		<!-- START FIRST-SCREEN -->
+		.section.s-first-screen
+			.container 
+				.s-first-screen__img-wrapper
+					img.s-first-screen__img(src="images/fs.jpg")
+				.s-first-screen__content
+					.s-first-screen__title Присоединяйся к команде мечты вместе с Кселл!
+					.s-first-screen__text 
+						p Кселл - престижная, продвинутая, технологичная компания, работать в которой, мечтает каждый казахстанец!
+					.s-first-screen__btn.btn.vacancy-btn Вакансии
+		<!-- END FIRST-SCREEN -->
+
+		<!-- START CAREER -->
+		.section.s-career 
+			.container
+				img.elem-img.elem-img--4(src="images/career.svg")
+				img.elem-img.elem-img--5(src="images/elem-2.svg")
+				.title <span></span>Карьера в Kcell
+				.s-career__inner 
+					.s-career__content 
+						.s-career__title Карьера в Кселл <br>У нас есть возможности для каждого!
+						.s-career__text 
+							p Кселл это крупнейшая цифровая экосистема в Казахстане, которая чтит традиции и идет в ногу со временем.
+							p Одной из главных целей нашей компании является создание комфортной и дружелюбной атм осферы для сотрудников.
+							p Если Вы смелые, открытые, заботливые и креативные, присоединяйтесь!
+					.s-career__img-wrapper
+						img.s-career__img(src="images/career.svg")
+				.s-career__inner.s-career__inner--2 
+					.s-career__content 
+						.s-career__title Наши награды:
+						.s-career__text 
+							p Кселл занял <span>1 место</span> в категории Масштабный бизнес, Ташкентcкий II Международный управленческий форум
+						.s-career__bottom
+							.s-career__bottom-left
+								.s-career__bottom-title Победитель
+								.s-career__bottom-text 
+									p Премии HR-Бренд
+							.s-career__bottom-img-wrapper
+								img.s-career__bottom-img(src="images/career-icon.svg")
+		<!-- END CAREER -->
+
+		<!-- START WORK -->
+		.section.s-work.section--medium-pt
+			.container 
+				.title <span></span> Работая у нас , ты получаешь
+				.s-work__cards.flex 
+					+icon-card("money", "Достойную заработную плату <br>Годовой бонус и другие мотивационные программы")
+					+icon-card("star", "Крутые корпоративные мероприятия")
+					+icon-card("home", "Гибридный формат работы")
+					+icon-card("portfel", "Внутренние программы обучения и наставничества")
+					+icon-card("heart", "Медицинскую страховку")
+					+icon-card("settings", "Доступ к онлайн-магазину Samsung для покупки техники со специальной скидкой")
+					+icon-card("gift", "Подарки от компании на день рождения")
+					.s-work__text 
+						p И многое другое!
+		<!-- END WORK -->
+	<!-- END CONTENT CAREER-KZ -->
+
+	<!-- START CONTENT GALLERY-KZ -->
+	.content.content__gallery-kz
+		<!-- START HEADER -->
+		.header
+			.header__inner
+				.header__left
+					.header__logo-wrapper 
+						img.header__logo(src="images/logo.svg" alt="Логотип")
+					.header__nav.nav
+						a.nav-item.content-tab(href="#company-kz") Компания
+						a.nav-item.content-tab(href="#values-kz") Ценности
+						a.nav-item.content-tab(href="#career-kz") Карьера в Kacll
+						a.nav-item.content-tab(href="#gallery-kz") Галерея
+				.header__right
+					.header__lg
+						<svg class="header__lg-img" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L5 5L9 1" stroke="#231F20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						a.header__lg-btn.content-tab(href="#gallery-kz") Kz
+						a.header__lg-btn.content-tab.content-tab--active(href="#gallery") Ru
+					+nav-btn
+		<!-- END HEADER -->
+
+		<!-- START FIRST-SCREEN -->
+		.section.s-first-screen
+			.container 
+				.s-first-screen__img-wrapper
+					img.s-first-screen__img(src="images/fs.jpg")
+				.s-first-screen__content
+					.s-first-screen__title Присоединяйся к команде мечты вместе с Кселл!
+					.s-first-screen__text 
+						p Кселл - престижная, продвинутая, технологичная компания, работать в которой, мечтает каждый казахстанец!
+					.s-first-screen__btn.btn.vacancy-btn Вакансии
+		<!-- END FIRST-SCREEN -->
+
+		<!-- START SECTION GALLERY -->
+		.section.s-gallery
+			img.elem-img.elem-img--3(src="images/elem-3.svg")
+			.container
+				.title <span></span>Наши будни
+				.swiper-container.gallery-slider
+					.swiper-wrapper
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/1.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/2.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/3.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/4.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/5.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/6.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/7.jpg")
+						.swiper-slide 
+							.s-gallery__img-wrapper 
+								img.s-gallery__img(src="images/gallery/8.jpg")
+					.gallery-slider__pagination
+					.slider-arrows.gallery-slider-arrows
+						.slider-arrow.slider-arrow--prev.gallery-slider-arrow-prev
+							<svg class="slider-arrow__icon" fill="none" version="1.1" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
+								<path d="m9 1-8 8 8 8" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							</svg>
+						.slider-arrow.slider-arrow--next.gallery-slider-arrow-next
+							<svg class="slider-arrow__icon" fill="none" version="1.1" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
+								<path d="m1 17 8-8-8-8" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+							</svg>
+		<!-- END SECTION GALLERY-->
+	<!-- END CONTENT GALLERY-KZ -->
+
+	<!-- START FOOTER -->
+	.footer
+		img.footer__img(src="images/footer-elem.svg")
+		img.footer__img.footer__img--2(src="images/footer-elem2.svg")
+		.container 
+			.footer__title Мы в соцсетях
+			.footer__inner 
+				.footer__left 
+					.footer__text 
+						p Мы ищем в свою команду амбициозных, людей, готовых развиваться и двигаться вперед вместе с нами!
+				.footer__right 
+					.footer__right-title Хочешь к нам? Скорее переходи по ссылке
+					a.footer__right-link(href="https://instagram.com/kcell.life?igshid=YmMyMTA2M2Y=" target="blank_")
+						.footer__right-link-title Instagram
+						.footer__right-link-img-wrapper 
+							<svg class="footer__right-link-img" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9.33334 22.6667L22.6667 9.33337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M9.33334 9.33337H22.6667V22.6667" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+	<!-- END FOOTER -->

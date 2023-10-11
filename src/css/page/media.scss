@@ -1,0 +1,81 @@
+@import "./../assets/vars";
+@import "./../assets/keyframes";
+@import "./../modules/nav";
+
+// BREAKPOINT LAPTOP
+@media (max-width: $ss_laptop) {
+	.container{
+		max-width: 880px;
+	}
+	.wrapper{
+		font-size: 16px;
+	}
+	.header{
+		&__inner{
+			padding: 24px 18px;
+		}
+		&__nav{
+			margin-left: 75px;
+		}
+		&__right{
+			right: 18px;
+		}
+	}
+	.nav{
+		&-item{
+			&+&{
+				margin-left: 40px;
+			}
+		}
+	}
+}
+
+// BREAKPOINT TABLET
+@media (max-width: $ss_tablet) {
+	.wrapper{
+		font-size: 15px;
+	}
+	.container{
+		padding: 0 15px;
+	}
+	.header{
+		&__right{
+			right: 13%;
+		}
+	}
+	@include nav-module($color_primary, #fff);
+	.nav {
+		display: flex;
+		flex-direction: column;
+		z-index: 30;
+		&-item {
+			color: #fff;
+			background: none;
+			& + & {
+				margin-left: 0;
+			}
+			&::after{
+				display: none;
+			}
+			&:hover, &:focus{
+				background: none;
+				color: #fff;
+			}
+		}
+	}
+}
+
+// BREAKPOINT SM TABLET
+@media (max-width: $ss_sm_tablet) {
+	.wrapper{
+		font-size: 14px;
+	}
+}
+
+// BREAKPOINT PHONE
+@media (max-width: $ss_phone) {
+	.wrapper{
+		width: calc(100% + 30px);
+		margin: 0 -15px;
+	}
+}

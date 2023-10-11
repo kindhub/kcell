@@ -1,0 +1,39 @@
+@keyframes top {
+  to{
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes bottom {
+  to{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes left {
+  to{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes right {
+  to{
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes move {
+  to{
+    opacity: 0;
+  }
+}
+
+@keyframes move2 {
+  to{
+    opacity: 1;
+  }
+}
